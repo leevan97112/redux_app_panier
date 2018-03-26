@@ -1,0 +1,45 @@
+/*
+author:Denys
+date:9 mars 2018
+description:fopage-footer. fo represent the footer
+*/
+
+.fopage-footer {
+  background-color: #4a4a4a;
+  height: 190px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa {
+  color: white;
+  /*-webkit-transition: scale 2s;*/
+  transition: scale 10s;
+}
+
+.fa:hover {
+  color: #26a69a;
+  transform: scale(1.5, 1.5);
+}
+
+.Focontainer {
+  padding: 10px;
+  display: flex;
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  word-spacing: 2.5px;
+  justify-content: center;
+  width: 100%;
+}
+
+.Fosocialmedia {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}

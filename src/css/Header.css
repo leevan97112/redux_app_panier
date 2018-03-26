@@ -1,0 +1,65 @@
+.logo {
+  font-size: 35px;
+  font-style: oblique;
+}
+
+.nav-wrapper {
+  background-color: #fafafa;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  align-items: center;
+  height: 100px;
+}
+.container {
+  /*color: #4a4a4a;*/
+  display: flex;
+  justify-content: flex-end;
+}
+.material-icons {
+  color: #4a4a4a;
+}
+
+.navButton:hover {
+  cursor: pointer;
+}
+
+.badge {
+  padding: 10px;
+  background-color: white;
+  border: 2px solid #4a4a4a;
+}
+
+.modal-header {
+  background-color: orange;
+}
+
+fade {
+  background-color: white;
+}
+
+/*
+.nav-wrapper {
+  background-color: #999999;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 70px;
+  align-items: center;
+}
+.Hcontainer {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+.material-icons {
+  margin-right: 30px;
+  color: black;
+}
+
+.navButton:hover {
+  cursor: pointer;
+}
+
+*/

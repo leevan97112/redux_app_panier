@@ -1,0 +1,103 @@
+/*
+  author:Denys;
+  date:9 mars 2018
+  description:
+*/
+
+* {
+  font-family: "pp-sans-big-light", "Helvetica Neue", Arial, sans-serif;
+}
+
+.title {
+  padding: 30px 0px 0px 0px;
+  height: auto;
+  margin: 38px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #2e3333;
+  font-size: 40px;
+  letter-spacing: 1.2px;
+  word-spacing: 5px;
+}
+
+.listProduct {
+  border-bottom: 2px solid #999999;
+  padding: 38px 45px;
+  margin: 38px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  /* border: 1px solid yellow;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 480px;
+}
+
+.pictureproduct {
+  width: 350px;
+  height: 250px;
+  box-shadow: 2px 5px 10px 7px #999999;
+}
+
+.infoproduct {
+  /*border: 1px dashed blue;*/
+  width: auto;
+  height: auto;
+  padding: 15px 5px;
+  font-size: 16px;
+  color: #2e3333;
+}
+.btn {
+  font-size: 15px;
+}
+
+.material-icons {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .listProduct {
+    flex-direction: column;
+    /*border: 1px dashed green;*/
+    padding: 0px 45px;
+  }
+  .product {
+    /*border: 3px dashed yellow;*/
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 38px 0px;
+  }
+
+  .infoproduct {
+    /*border: 1px solid purple;*/
+    width: 100%;
+    padding: 38px;
+  }
+}
+
+@media (max-width: 810px) {
+  .product {
+    flex-direction: column;
+    border-bottom: 2px solid #999999;
+    align-items: center;
+    justify-content: center;
+  }
+  /*.listProduct {
+    border: 3px dashed gold;
+  }*/
+
+  .pictureproduct {
+    width: 100%;
+    height: 380px;
+    box-shadow: 2px 5px 10px 7px #999999;
+  }
+}
